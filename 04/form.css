@@ -1,0 +1,49 @@
+.form {
+    font-size: 26px;
+    display: inline-block;
+    margin-top: 90px;
+    background-color: #eee;
+    max-width: 400px;
+}
+
+.form__labelText {
+    display: inline-block;
+    max-width: 170px;
+    margin: 23px;
+}
+
+.form__button {
+    background-color: #d64b4c;
+    color: aliceblue;
+    border: 1px solid black;
+    padding: 4px;
+    margin-top: 12px;
+}
+
+.form__button--submit {
+    padding: 7px;
+    margin-right: 12px;
+}
+
+.form__icon {
+    max-width: 70px;
+    padding-top: 20px;
+}
+
+.form_amount {
+    margin: 5px;
+    display: inline-block;
+    max-width: 187px;
+}
+
+.form__button:hover {
+    background-color: #d64b4ce8;
+}
+
+.form__button:active {
+    background-color: #d64b4bfe;
+}
+
+.form__select:focus-within {
+    background-color: #f8f2f2;
+}

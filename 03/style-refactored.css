@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lora", serif;
+    line-height: 1.6;
+    background-color: azure;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 39px;
+    padding-right: 39px;
+    border: 1px solid rgba(250, 128, 114, 0.195);
+}
+
+.body__colorDark {
+    color: #eee;
+    background: #222222d8;
+}
+
+
+#czesc1 {
+    padding-top: 150px;
+}
+
+#czesc2 {
+    padding-top: 150px;
+}
+
+#czesc3 {
+    padding-top: 150px;
+}
+
+#czesc4 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+

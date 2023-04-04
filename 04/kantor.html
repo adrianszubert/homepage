@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
+    <title>Przelicz na złotówki!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="kantor.js"></script>
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend"></legend>
+            <img class="form__icon" alt="poland icon" type="image" src="https://www.linkpicture.com/q/poland.png">
+            <p>
+                <label class="form__label">
+                    <span class="form__labelText">Podaj kwotę:</span><input class="form__amount js-amount" type="number"
+                        step="any" name="amount" min="0.1" required autofocus placeholder="0">
+                </label>
+            </p>
+            <p>
+                <label class="form__label">
+                    <span class="form__labelText">Wybierz walutę:</span>
+                    <select name="currency" class="form__select js-currency" required>
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="USD">Dolar amerykański (USD)</option>
+                        <option value="GBP">Funt brytyjski (GBP)</option>
+                        <option value="NOK">Korony norweskie (NOK)</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <button class="form__button form__button--submit">Przelicz na PLN</button>
+                <button class="form__button" type="reset">Resetuj</button>
+            </p>
+        </fieldset>
+    </form>
+    <p class="paragraph"><span class="js-result">0.0</span></p>
+    <p>(na podstawie aktualnych notowań kursów średnich walut obcych NBP z dnia 31.03.2023r.)</p>
+</body>
+
+</html>

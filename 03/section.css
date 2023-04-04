@@ -1,0 +1,71 @@
+.section__heading {
+    font-size: 19px;
+    outline: 1px solid rgb(250, 128, 114);
+    padding: 11px;
+    display: inline;
+}
+
+
+.section__paragraph {
+    padding-top: 20px;
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+}
+
+.section__table {
+    font-family: "Helvetica", sans-serif;
+    font-size: 11px;
+    max-width: 750px;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 1px rgba(167, 0, 0, 0.425);
+}
+
+.section__tableName {
+    font-size: 17px;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+.section__cell {
+    border: 2px ridge #000;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section__cellHeader {
+    background-color: rgba(225, 131, 131, 0.519);
+    font-weight: 700;
+    padding: 5px;
+}
+
+.section__tableRow:nth-child(even) {
+    background: #e0d9d970;
+}
+
+.section__tableRow:hover {
+    background: rgba(225, 131, 131, 0.519);
+}
+
+.section__tableRow:active {
+    background: rgba(225, 131, 131, 0.734);
+}
+
+.section__list {
+    list-style-type: square;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 0px;
+    line-height: 2;
+    padding: 20px;
+}
+
+.section__heading:hover {
+    background-color: rgba(250, 128, 114, 0.074);
+}
+
+
